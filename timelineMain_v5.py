@@ -1,4 +1,4 @@
-#!/usr/bin/python3.5
+#!/home/jgarne01/anaconda3/bin/python3.6
 
 # Python code to collect residue and file data from timeline tml file.
 # JEN
@@ -51,6 +51,7 @@
 # NOTES FROM FEBRUARY 7th, 2017
 # adding function to remove temporary .tml files after user moves onto
 # next file 
+# update default python version to 3.6
 
 from functionsTimeline_v5 import *
 

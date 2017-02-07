@@ -6,6 +6,7 @@
 # Wednesday 6th July, 2016
 # Monday 22nd August, 2016
 # Friday 6th January, 2017
+# Tuesday 7th February, 2017
 
 # Version 5
 
@@ -46,6 +47,10 @@
 
 # NOTES FROM JANUARY 30th, 2017
 # done adding csv writing capabilities
+
+# NOTES FROM FEBRUARY 7th, 2017
+# adding function to remove temporary .tml files after user moves onto
+# next file 
 
 from functionsTimeline_v5 import *
 
@@ -121,6 +126,10 @@ while True:
     if r_stat == 'q':                   # quit
         break
    
+    # Check for and delete tempsteps files
+    if test.del_tempsteps() == 'q':
+        break
+    
     print("***************************************************************")
     print("Type \"q\" to quit.")
     print("***************************************************************")

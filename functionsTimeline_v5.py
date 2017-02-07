@@ -44,12 +44,12 @@ class Timeline(object):
     let_codes = {'A': 'ALA', 'C': 'CYS', 'D': 'ASP', 'E': 'GLU', 'F': 'PHE', 'G': 'GLY', 'H': 'HIS', 'I': 'ILE', 'K': 'LYS', 'L': 'LEU', 'M': 'MET', 'N': 'ASN', 'P': 'PRO', 'Q': 'GLN', 'R': 'ARG', 'S': 'SER', 'T': 'THR', 'V': 'VAL', 'W': 'TRP', 'Y': 'TYR'}
     
     def __init__(self, name, file_dir, filename, sr, ProP, csv_name):
-        self.name = name
-        self.file_dir = file_dir
-        self.filename = filename
-        self.sr = sr
-        self.ProP = ProP
-        self.csv_name = csv_name
+        self.name = name            # name user selects at beginning
+        self.file_dir = file_dir    # full directory and filename
+        self.filename = filename    # just filename
+        self.sr = sr                # dictionary of segnames and residue #'s
+        self.ProP = ProP            # type of ProP protein (if applicable)
+        self.csv_name = csv_name    # name of output csv file
     
     
     # Determine whether file describes ProP residues or not
@@ -456,7 +456,7 @@ class Timeline(object):
                     if status == 'first' and line.endswith(sstruct_letter+' ') == True:
                         status = 'middle'
                     elif status == 'middle':
-                        if line.endswith(sstruct_letter+' ') == True:
+                        if line.endswiupdate_tmlth(sstruct_letter+' ') == True:
                             counter+=1
                         elif line.endswith(sstruct_letter+' ') == False:
                             stat_list.append(counter)
@@ -582,7 +582,32 @@ class Timeline(object):
             with open(self.csv_name[:-4]+"_residues.csv", 'a') as f2:
                 f2.write(self.name+', '+full_id+', '+str(p_list).strip('[]')+'\n')
                 return
-        
+
+    def del_tempsteps(self):
+        """ this checks if the filename starts with temp
+            if it does, the user is prompted to delete the file
+            the prompt is a safety measure in case the original
+            file begins with temp
+        """
+        temp_name = str(self.file_dir[self.file_dir.rindex('/')+1:])
+        if temp_name.startswith('temp'):
+            print()
+            print("If the ProP residue ranges were updated, they were written to a new file (name starting with \"temp\"). This new file is no longer needed by the program and can be removed.")
+            print("Note: the temporary file cannot be used in the VMD program, because the Timeline plugin requires the original psf residue numbers to generate the image. In other words, this file is useless outside of this program.")
+            print()
+            query = ''
+            while query != 'Y' and query != 'n':
+                query = input("Delete file "+temp_name+"? (Y/n) ")
+                if query == 'q':
+                    return 'q'      # user wants to quit
+            if query == 'Y':        # delete temp file
+                os.remove(self.file_dir[:self.file_dir.rindex('/')+1]+temp_name)
+                return
+            elif query == 'n':      # don't delete file
+                return     
+        else:                       # file does not start with temp
+            return
+            
 #############################################################################
 #### outside of main class ##################################################
 #############################################################################

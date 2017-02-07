@@ -627,7 +627,7 @@ def get_dir():
     chespin = os.getcwd()
     f_name = input("Enter the name of the file you are interested in (from the current directory): ")
     f_dir = chespin+'/'+f_name
-    if f_dir == 'q':
+    if f_name == 'q':
         return 'q'
     elif os.path.isfile(f_dir) != True:
         print("No such file in the given directory. Try again or type \"q\" to quit.")

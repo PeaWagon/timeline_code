@@ -15,7 +15,7 @@ if (length(args) <= 2) {
 }
 
 # Assign variables for titles
-jtitle <- paste("Secondary Structure Analysis for ", args[2], sep='')
+jtitle <- args[2]
 jxaxis <- "Secondary Structure"
 jyaxis <- "% of Simulation Spent as Secondary Structure"
 jsubtitle <- paste("Based on 5ns intervals from a ", args[3], "ns Simulation", sep='')

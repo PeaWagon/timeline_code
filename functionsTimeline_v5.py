@@ -456,7 +456,7 @@ class Timeline(object):
                     if status == 'first' and line.endswith(sstruct_letter+' ') == True:
                         status = 'middle'
                     elif status == 'middle':
-                        if line.endswiupdate_tmlth(sstruct_letter+' ') == True:
+                        if line.endswith(sstruct_letter+' ') == True:
                             counter+=1
                         elif line.endswith(sstruct_letter+' ') == False:
                             stat_list.append(counter)

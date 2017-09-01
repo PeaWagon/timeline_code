@@ -1,0 +1,526 @@
+***************************************************************
+Welcome to Jen's Timeline Secondary Structure File Analysis.
+This is version 1.0!
+To quit at any time, type "q".
+***************************************************************
+Enter the name of your simulation: E480C-0.50M
+Enter the full path of the file you are interested in (ex: /media/jgarne01/Extra Drive 1/ProP-files/R488I-0.50M/steps1-4.tml): /media/jgarne01/Extra Drive 1/ProP-files/E480C-0.50M/steps1-25.tml
+
+***************************************************************
+How many segments (with unique amino acid ranges) are in steps1-25.tml? For instance, PROA 1-3 and PROA 23-25 count as two unique segments. 2
+Make sure the format (e.g. capitalization) for your segments is the same as what is in your file. Example: PROA.
+Make sure that the given amino acid ranges are separated by a hyphen. Do not put spaces. It is assumed that each amino acid increases the range by 1. The range can start from any positive integer or zero. Examples 1-5, 0-20, 5-34.
+***************************************************************
+
+Enter segment number 1: PROA
+Enter the amino acid range for segment number 1, separated by a hyphen: 1-36
+Enter segment number 2: PROB
+Enter the amino acid range for segment number 2, separated by a hyphen: 37-72
+Return file statistics? (Y/n) Y
+General file statistics will now be reported for E480C-0.50M.
+There is/are 900000 possible secondary structure value(s) in steps1-25.tml.
+There is/are a total of 72 residue(s) in steps1-25.tml.
+There is/are a total of 12500 frame(s) in steps1-25.tml for each residue.
+Found 8876 turn(s) in steps1-25.tml.
+Found 682741 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 234 3-10 heli(x/ces) in steps1-25.tml.
+Found 208149 coil(s) in steps1-25.tml.
+Return specific residue statistics? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROA
+Specify the residue number you are interested in (example 4): 1
+
+Checking that the given residue ID is valid.
+Residue PROA 1 is in the given range(s).
+
+Residue statistics will now be reported for segment PROA, residue number 1.
+
+Found 26 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12474 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 0.21% of the time as secondary structure turn.
+Residue spent a maximum of 2 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.30 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 99.79% of the time as secondary structure coil.
+Residue spent a maximum of 2403 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 594.00 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 134 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 40 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 72
+
+Checking that the given residue ID is valid.
+Residue PROB 72 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 72.
+
+Found 32 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12468 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 0.26% of the time as secondary structure turn.
+Residue spent a maximum of 3 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.33 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 99.74% of the time as secondary structure coil.
+Residue spent a maximum of 2541 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 498.72 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 55 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 48 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 71
+
+Checking that the given residue ID is valid.
+Residue PROB 71 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 71.
+
+Found 32 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12468 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 0.26% of the time as secondary structure turn.
+Residue spent a maximum of 3 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.33 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 99.74% of the time as secondary structure coil.
+Residue spent a maximum of 2541 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 498.72 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 55 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 48 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 70
+
+Checking that the given residue ID is valid.
+Residue PROB 70 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 70.
+
+Found 311 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12189 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 2.49% of the time as secondary structure turn.
+Residue spent a maximum of 23 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 2.05 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 97.51% of the time as secondary structure coil.
+Residue spent a maximum of 1867 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 79.67 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 6 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 304 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 69
+
+Checking that the given residue ID is valid.
+Residue PROB 69 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 69.
+
+Found 321 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12179 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 2.57% of the time as secondary structure turn.
+Residue spent a maximum of 23 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 2.04 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1 for frames spent as secondary structure turn.
+
+Residue spent 97.43% of the time as secondary structure coil.
+Residue spent a maximum of 1682 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 77.08 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 6.0 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 314 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 68
+
+Checking that the given residue ID is valid.
+Residue PROB 68 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 68.
+
+Found 477 turn(s) in steps1-25.tml.
+Found 0 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12023 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 3.82% of the time as secondary structure turn.
+Residue spent a maximum of 23 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 2.15 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 96.18% of the time as secondary structure coil.
+Residue spent a maximum of 1612 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 54.16 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 4.0 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 443 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 67
+
+Checking that the given residue ID is valid.
+Residue PROB 67 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 67.
+
+Found 438 turn(s) in steps1-25.tml.
+Found 1 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 12061 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 3.50% of the time as secondary structure turn.
+Residue spent a maximum of 23 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 2.07 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 0.01% of the time as secondary structure alpha helix.
+Residue spent a maximum of 1 frame(s) as secondary structure alpha helix.
+Residue spent a minimum of 1 frame(s) as secondary structure alpha helix.
+Residue spent an average of 1.00 frame(s) as secondary structure alpha helix.
+The mode was 1 for frames spent as secondary structure alpha helix.
+The median was 1 for frames spent as secondary structure alpha helix.
+
+Residue spent 96.49% of the time as secondary structure coil.
+Residue spent a maximum of 1070 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 56.62 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 5 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 425 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 66
+
+Checking that the given residue ID is valid.
+Residue PROB 66 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 66.
+
+Found 203 turn(s) in steps1-25.tml.
+Found 10659 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 17 3-10 heli(x/ces) in steps1-25.tml.
+Found 1621 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 1.62% of the time as secondary structure turn.
+Residue spent a maximum of 15 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.78 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1.0 for frames spent as secondary structure turn.
+
+Residue spent 85.27% of the time as secondary structure alpha helix.
+Residue spent a maximum of 137 frame(s) as secondary structure alpha helix.
+Residue spent a minimum of 1 frame(s) as secondary structure alpha helix.
+Residue spent an average of 8.37 frame(s) as secondary structure alpha helix.
+The mode was 1 for frames spent as secondary structure alpha helix.
+The median was 5 for frames spent as secondary structure alpha helix.
+
+Residue spent 0.14% of the time as secondary structure 3-10 helix.
+Residue spent a maximum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent a minimum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent an average of 1.00 frame(s) as secondary structure 3-10 helix.
+The mode was 1 for frames spent as secondary structure 3-10 helix.
+The median was 1 for frames spent as secondary structure 3-10 helix.
+
+Residue spent 12.97% of the time as secondary structure coil.
+Residue spent a maximum of 9 frame(s) as secondary structure coil.
+Residue spent a minimum of 1 frame(s) as secondary structure coil.
+Residue spent an average of 1.31 frame(s) as secondary structure coil.
+The mode was 1 for frames spent as secondary structure coil.
+The median was 1.0 for frames spent as secondary structure coil.
+
+Residue changed its secondary structure 2645 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 65
+
+Checking that the given residue ID is valid.
+Residue PROB 65 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 65.
+
+Found 61 turn(s) in steps1-25.tml.
+Found 12422 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 17 3-10 heli(x/ces) in steps1-25.tml.
+Found 0 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 0.49% of the time as secondary structure turn.
+Residue spent a maximum of 3 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.11 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1 for frames spent as secondary structure turn.
+
+Residue spent 99.38% of the time as secondary structure alpha helix.
+Residue spent a maximum of 1111 frame(s) as secondary structure alpha helix.
+Residue spent a minimum of 1 frame(s) as secondary structure alpha helix.
+Residue spent an average of 174.96 frame(s) as secondary structure alpha helix.
+The mode was 1 for frames spent as secondary structure alpha helix.
+The median was 95 for frames spent as secondary structure alpha helix.
+
+Residue spent 0.14% of the time as secondary structure 3-10 helix.
+Residue spent a maximum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent a minimum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent an average of 1.00 frame(s) as secondary structure 3-10 helix.
+The mode was 1 for frames spent as secondary structure 3-10 helix.
+The median was 1 for frames spent as secondary structure 3-10 helix.
+
+Residue changed its secondary structure 142 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 64
+
+Checking that the given residue ID is valid.
+Residue PROB 64 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 64.
+
+Found 1 turn(s) in steps1-25.tml.
+Found 12482 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 17 3-10 heli(x/ces) in steps1-25.tml.
+Found 0 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 0.01% of the time as secondary structure turn.
+Residue spent a maximum of 1 frame(s) as secondary structure turn.
+Residue spent a minimum of 1 frame(s) as secondary structure turn.
+Residue spent an average of 1.00 frame(s) as secondary structure turn.
+The mode was 1 for frames spent as secondary structure turn.
+The median was 1 for frames spent as secondary structure turn.
+
+Residue spent 99.86% of the time as secondary structure alpha helix.
+Residue spent a maximum of 1413 frame(s) as secondary structure alpha helix.
+Residue spent a minimum of 68 frame(s) as secondary structure alpha helix.
+Residue spent an average of 656.95 frame(s) as secondary structure alpha helix.
+There is no mode for this secondary structure.
+The median was 770 for frames spent as secondary structure alpha helix.
+
+Residue spent 0.14% of the time as secondary structure 3-10 helix.
+Residue spent a maximum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent a minimum of 1 frame(s) as secondary structure 3-10 helix.
+Residue spent an average of 1.00 frame(s) as secondary structure 3-10 helix.
+The mode was 1 for frames spent as secondary structure 3-10 helix.
+The median was 1 for frames spent as secondary structure 3-10 helix.
+
+Residue changed its secondary structure 36 time(s).
+
+Would you like to analyse another residue? (Y/n) Y
+
+The available residue IDs are:
+Segment ID 1: PROA
+Residue Range 1: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36]
+Segment ID 2: PROB
+Residue Range 2: [37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72]
+
+Specify the segment you are interested in (example PROA). Make sure the format (e.g. capitalization) is the same as what is in your file: PROB
+Specify the residue number you are interested in (example 4): 63
+
+Checking that the given residue ID is valid.
+Residue PROB 63 is in the given range(s).
+
+Residue statistics will now be reported for segment PROB, residue number 63.
+
+Found 0 turn(s) in steps1-25.tml.
+Found 12500 alpha heli(x/ces) in steps1-25.tml.
+Found 0 extended configuration(s) in steps1-25.tml.
+Found 0 isolated bridge(s) in steps1-25.tml.
+Found 0 pi heli(x/ces) in steps1-25.tml.
+Found 0 3-10 heli(x/ces) in steps1-25.tml.
+Found 0 coil(s) in steps1-25.tml.
+
+Residue has 12500 frames in steps1-25.tml.
+
+Residue spent 100.00% of the time as secondary structure alpha helix.
+Residue spent a maximum of 12500 frame(s) as secondary structure alpha helix.
+Residue spent a minimum of 12500 frame(s) as secondary structure alpha helix.
+Residue spent an average of 12500.00 frame(s) as secondary structure alpha helix.
+The mode was 12500 for frames spent as secondary structure alpha helix.
+The median was 12500 for frames spent as secondary structure alpha helix.
+
+Residue changed its secondary structure 0 time(s).
+
+Would you like to analyse another residue? (Y/n) n
+***************************************************************
+Type "q" to quit.
+***************************************************************
+Enter the name of your simulation: q
+
